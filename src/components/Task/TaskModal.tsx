@@ -84,7 +84,7 @@ export function TaskModal({ isOpen, onClose, onSubmit }: TaskModalProps) {
                             </button>
                             <button
                                 type="submit"
-                                className="flex-1 px-4 py-2 bg-primary-color text-white"
+                                className="flex-1 px-4 py-2 bg-primary-color text-white rounded-lg houver:bg-gray-50 transition-colors"
                             >
                                 Cadastrar
                             </button>
