@@ -90,7 +90,7 @@ function App() {
         <Layout>
             <div className="max-w-7xl mx-auto">
                 <header className="flex items-center justify-between mb-8">
-                    <h1 className="text-3xl font-default-bold text-gray-900">
+                    <h1 className="text-3xl font-title text-gray-900">
                         Listagem de Tarefas
                     </h1>
 
@@ -158,16 +158,16 @@ function App() {
                                 <table className="w-full">
                                     <thead>
                                         <tr className="border-b-2 border-gray-300">
-                                            <th className="text-left py-4 px-4 font-default-bold text-title">
+                                            <th className="text-left py-4 px-4 font-title text-title">
                                                 Título
                                             </th>
-                                            <th className="text-left py-4 px-4 font-default-bold text-title">
+                                            <th className="text-left py-4 px-4 font-title text-title">
                                                 Descrição
                                             </th>
-                                            <th className="text-left py-4 px-4 font-default-bold text-title">
+                                            <th className="text-left py-4 px-4 font-title text-title">
                                                 Status
                                             </th>
-                                            <th className="text-left py-4 px-4 font-default-bold text-title">
+                                            <th className="text-left py-4 px-4 font-title text-title">
                                                 Ações
                                             </th>
                                         </tr>

@@ -33,7 +33,7 @@ export function TaskModal({ isOpen, onClose, onSubmit }: TaskModalProps) {
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50">
             <div className="bg-secondary-color rounded-lg shadow-xl w-full max-w-md mx-4">
                 <div className="p-6">
-                    <h2 className="text-2xl font-default-bold text-primary-color mb-6">
+                    <h2 className="text-2xl font-title text-primary-color mb-6">
                         Cadastrar Tarefa
                     </h2>
 
@@ -50,7 +50,7 @@ export function TaskModal({ isOpen, onClose, onSubmit }: TaskModalProps) {
                                 id="titulo"
                                 value={titulo}
                                 onChange={(e) => setTitulo(e.target.value)}
-                                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-color focus:border-transparent outline-none"
+                                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-color focus:border-transparent outline-none font-default"
                                 placeholder="Digite o título da tarefa"
                                 required
                             />
@@ -67,7 +67,7 @@ export function TaskModal({ isOpen, onClose, onSubmit }: TaskModalProps) {
                                 id="descricao"
                                 value={descricao}
                                 onChange={(e) => setDescricao(e.target.value)}
-                                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-color focus:border-transparent outline-none resize-none"
+                                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-color focus:border-transparent outline-none resize-none font-default"
                                 placeholder="Digite a descrição da tarefa"
                                 rows={4}
                                 required
@@ -78,13 +78,13 @@ export function TaskModal({ isOpen, onClose, onSubmit }: TaskModalProps) {
                             <button
                                 type="button"
                                 onClick={handleClose}
-                                className="flex-1 px-4 py-2 border border-gray-300 text-gray-700 rounded-lg hover:bg-gray-50 transition-colors"
+                                className="flex-1 px-4 py-2 border border-gray-300 text-gray-700 rounded-lg hover:bg-gray-50 transition-colors font-default"
                             >
                                 Cancelar
                             </button>
                             <button
                                 type="submit"
-                                className="flex-1 px-4 py-2 bg-primary-color text-white rounded-lg houver:bg-gray-50 transition-colors"
+                                className="flex-1 px-4 py-2 bg-primary-color text-white rounded-lg houver:bg-gray-50 transition-colors font-default"
                             >
                                 Cadastrar
                             </button>

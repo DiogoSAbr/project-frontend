@@ -13,8 +13,8 @@ export function TaskRow({ task, onToggleStatus, onDelete }: TaskRowProps) {
 
     return (
         <tr className="border-b border-gray-300 hover:bg-gray-50 transition-colors">
-            <td className="py-4 px-4 text-gray-700">{task.titulo}</td>
-            <td className="py-4 px-4 text-gray-600">{task.descricao}</td>
+            <td className="py-4 px-4 font-default text-gray-700">{task.titulo}</td>
+            <td className="py-4 px-4 font-default text-gray-600">{task.descricao}</td>
             <td className="py-4 px-4">
                 <span
                     className={`inline-block px-4 py-1 rounded-full text-sm font-default -ml-5 

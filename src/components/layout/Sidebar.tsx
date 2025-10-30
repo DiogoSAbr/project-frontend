@@ -32,7 +32,7 @@ export function Sidebar({ isOpen, setIsOpen, isMobile }: SidebarProps) {
                             key={label}
                             href={href}
                             onClick={() => setMobileMenuOpen(false)}
-                            className="flex items-center gap-3 p-2 rounded-md hover:bg-gray-100 text-gray-700"
+                            className="flex items-center gap-3 p-2 rounded-md hover:bg-gray-100 text-gray-700 font-default"
                         >
                             <Icon size={20} /> <span>{label}</span>
                         </a>
@@ -69,7 +69,7 @@ export function Sidebar({ isOpen, setIsOpen, isMobile }: SidebarProps) {
                             <a
                                 key={label}
                                 href={href}
-                                className={`flex items-center gap-3 p-3 rounded-lg hover:bg-primary-color hover:text-secondary-color transition ${!isOpen && "justify-center"}`}
+                                className={`font-default flex items-center gap-3 p-3 rounded-lg hover:bg-primary-color hover:text-secondary-color transition ${!isOpen && "justify-center"}`}
                             >
                                 <Icon size={24} />
                                 {isOpen && <span>{label}</span>}
