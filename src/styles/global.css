@@ -1,5 +1,17 @@
 @import 'tailwindcss';
 
+@font-face {
+    font-family: "Poppins-bold";
+    src: url(../fonts/poppins/Poppins-Bold.ttf) format("opentype");
+    font: bold;
+}
+
+@font-face {
+    font-family: "Poppins-regular";
+    src: url(../fonts/poppins/Poppins-Regular.ttf)format("opentype");
+    font: bold;
+}
+
 @theme {
     /* default-colors */
     --color-primary-color: #1C2456;
@@ -10,6 +22,6 @@
     --color-confirm: #48bb78;
 
     /* fonts */
-    --font-default: Poppins, sans-serif;
-    --font-default-bold: Poppins, strong;
-};
+    --font-default: 'Poppins-regular';
+    --font-title: 'Poppins-bold';
+}
