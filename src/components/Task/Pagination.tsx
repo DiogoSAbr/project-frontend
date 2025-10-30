@@ -36,7 +36,7 @@ export function Pagination({ currentPage, totalPages, onPageChange }: Pagination
             <button
                 onClick={() => onPageChange(currentPage - 1)}
                 disabled={currentPage === 1}
-                className="px-3 py-2 rounded-lg border border-gray-300 text-gray-700 hover:bg-gray-50 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+                className="px-3 py-2 rounded-lg border border-gray-300 text-gray-700 hover:bg-gray-50 disabled:opacity-50 disabled:cursor-not-allowed transition-colors font-default"
             >
                 Anterior
             </button>
@@ -46,7 +46,7 @@ export function Pagination({ currentPage, totalPages, onPageChange }: Pagination
                     key={index}
                     onClick={() => typeof page === 'number' && onPageChange(page)}
                     disabled={page === '...'}
-                    className={`px-4 py-2 rounded-lg transition-colors ${page === currentPage
+                    className={`font-default px-4 py-2 rounded-lg transition-colors ${page === currentPage
                             ? 'bg-primary-color text-secondary-color'
                             : page === '...'
                                 ? 'cursor-default text-gray-400'
@@ -60,7 +60,7 @@ export function Pagination({ currentPage, totalPages, onPageChange }: Pagination
             <button
                 onClick={() => onPageChange(currentPage + 1)}
                 disabled={currentPage === totalPages}
-                className="px-3 py-2 rounded-lg border border-gray-300 text-gray-700 hover:bg-gray-50 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+                className="px-3 py-2 rounded-lg border border-gray-300 text-gray-700 hover:bg-gray-50 disabled:opacity-50 disabled:cursor-not-allowed transition-colors font-default"
             >
                 Próxima
             </button>

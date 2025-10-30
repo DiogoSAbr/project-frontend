@@ -185,7 +185,7 @@ function App() {
                                 </table>
                             </div>
                             <div className="flex flex-col md:flex-row md:items-center md:justify-between mt-6 gap-3">
-                                <p className="text-gray-600 text-sm">
+                                <p className="text-gray-600 text-sm font-default">
                                     Mostrando {paginatedTasks.length} de {filteredTasks.length} tarefas
                                 </p>
 
