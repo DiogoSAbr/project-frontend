@@ -49,7 +49,7 @@ export function Sidebar({ isOpen, setIsOpen, isMobile }: SidebarProps) {
                     onMouseLeave={() => setIsOpen(false)}
                 >
                     <div className="relative border-b border-white/10">
-                        <div className="flex justify-center items-center py-6">
+                        <div className="flex justify-center items-center px-3 py-6">
                             {isOpen ? (
                                 <img
                                     src="/logo/copastur-logo-sidebar.svg"
