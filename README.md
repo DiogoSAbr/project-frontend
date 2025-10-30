@@ -70,7 +70,7 @@ yarn preview
 
 # Executa o linter para verificar problemas no código
 yarn lint
-
+```
 🏗️ Estrutura do Projeto
 copastur-technical-challenge/
 ├── public/  
@@ -101,7 +101,7 @@ copastur-technical-challenge/
 ├── tsconfig.json          # Configuração TypeScript
 ├── vite.config.ts         # Configuração Vite
 └── package.json           # Dependências do projeto
-
+```
 ✨ Funcionalidades
 ✅ Gerenciamento de Tarefas
 
