@@ -1,0 +1,88 @@
+import type { Task } from '../types/task';
+
+export const mockTasks: Task[] = [
+    {
+        id: '1',
+        titulo: 'Implementar autenticação',
+        descricao: 'Desenvolver sistema de login e registro de usuários',
+        status: 'pendente',
+        createdAt: new Date('2025-01-15'),
+    },
+    {
+        id: '2',
+        titulo: 'Criar dashboard',
+        descricao: 'Design e implementação do painel administrativo',
+        status: 'concluída',
+        createdAt: new Date('2025-01-14'),
+    },
+    {
+        id: '3',
+        titulo: 'Configurar CI/CD',
+        descricao: 'Setup de pipeline de integração e deploy contínuo',
+        status: 'pendente',
+        createdAt: new Date('2025-01-13'),
+    },
+    {
+        id: '4',
+        titulo: 'Testes unitários',
+        descricao: 'Implementar cobertura de testes para componentes críticos',
+        status: 'concluída',
+        createdAt: new Date('2025-01-12'),
+    },
+    {
+        id: '5',
+        titulo: 'Documentação da API',
+        descricao: 'Criar documentação completa dos endpoints',
+        status: 'pendente',
+        createdAt: new Date('2025-01-11'),
+    },
+    {
+        id: '6',
+        titulo: 'Otimizar performance',
+        descricao: 'Análise e melhorias de performance da aplicação',
+        status: 'pendente',
+        createdAt: new Date('2025-01-10'),
+    },
+    {
+        id: '7',
+        titulo: 'Refatorar componentes',
+        descricao: 'Melhorar estrutura e reutilização de componentes',
+        status: 'concluída',
+        createdAt: new Date('2025-01-09'),
+    },
+    {
+        id: '8',
+        titulo: 'Implementar dark mode',
+        descricao: 'Adicionar suporte para tema escuro',
+        status: 'pendente',
+        createdAt: new Date('2025-01-08'),
+    },
+    {
+        id: '9',
+        titulo: 'Corrigir bugs reportados',
+        descricao: 'Resolver issues abertos no repositório',
+        status: 'concluída',
+        createdAt: new Date('2025-01-07'),
+    },
+    {
+        id: '10',
+        titulo: 'Setup de monitoramento',
+        descricao: 'Configurar ferramentas de monitoramento e logs',
+        status: 'pendente',
+        createdAt: new Date('2025-01-06'),
+    },
+    {
+        id: '11',
+        titulo: 'Implementar notificações',
+        descricao: 'Sistema de notificações push e email',
+        status: 'pendente',
+        createdAt: new Date('2025-01-05'),
+    },
+    {
+        id: '12',
+        titulo: 'Code review',
+        descricao: 'Revisar PRs pendentes da sprint',
+        status: 'concluída',
+        createdAt: new Date('2025-01-04'),
+    },
+];
